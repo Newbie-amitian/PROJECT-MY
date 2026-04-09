@@ -1,0 +1,19 @@
+{
+  "buildCommand": "pnpm build",
+  "devCommand": "pnpm dev",
+  "installCommand": "pnpm install",
+  "framework": "nextjs",
+  "public": false,
+  "env": {
+    "GROQ_API_KEY": {
+      "description": "Groq API Key from https://console.groq.com/keys"
+    },
+    "AI_PROVIDER": {
+      "description": "AI Provider: 'groq' (default) or 'zai'"
+    }
+  },
+  "git": {
+    "deploymentEnabled": true,
+    "autoAlias": true
+  }
+}
